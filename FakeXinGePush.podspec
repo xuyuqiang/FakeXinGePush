@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FakeXinGePush'
-  s.version          = '0.1.0'
+  s.version          = '3.3.5'
   s.summary          = 'FakeXinGePush'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-FakeBaiduPush for CocoaPods
+FakeXinGePush for CocoaPods
                        DESC
 
   s.homepage         = 'https://github.com/v7lin/FakeXinGePush'
@@ -30,13 +30,18 @@ FakeBaiduPush for CocoaPods
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FakeXinGePush/Classes/**/*'
+  s.source_files = 'FakeXinGePush/Classes/**/*', 'FakeXinGePush/XinGe/*.h'
   
   # s.resource_bundles = {
   #   'FakeXinGePush' => ['FakeXinGePush/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h', 'FakeXinGePush/XinGe/*.h'
+  s.vendored_libraries = 'FakeXinGePush/XinGe/*.a'
+  s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'UserNotifications'
+  s.libraries = 'z', 'sqlite3.0'
+  s.pod_target_xcconfig = {
+      'OTHER_LDFLAGS' => '$(inherited) -ObjC'
+  }
   # s.dependency 'AFNetworking', '~> 2.3'
 end
