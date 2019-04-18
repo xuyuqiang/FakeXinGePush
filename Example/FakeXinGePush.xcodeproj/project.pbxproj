@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		2D586ED42882A27E3D59A720 /* Pods-FakeXinGePush_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeXinGePush_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FakeXinGePush_Example/Pods-FakeXinGePush_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4BC08D6CD802508BAC708C3F /* Pods_FakeXinGePush_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakeXinGePush_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56C71FDD52B8C593FC1E7907 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		56C71FDD52B8C593FC1E7907 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FakeXinGePush_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeXinGePush_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,14 +59,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6104158067D236B9F17B91EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6104158067D236B9F17B91EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		765488E683D7582A196BF658 /* Pods-FakeXinGePush_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeXinGePush_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FakeXinGePush_Example/Pods-FakeXinGePush_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7D1074DD2CF71E24F83B9802 /* Pods_FakeXinGePush_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakeXinGePush_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B85EA63F7ED6E15C85E49CC5 /* Pods-FakeXinGePush_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeXinGePush_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FakeXinGePush_Tests/Pods-FakeXinGePush_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE7F9B18FD1205361EBC81CE /* Pods-FakeXinGePush_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeXinGePush_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FakeXinGePush_Tests/Pods-FakeXinGePush_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FEAFE6B4910A1C779236DE9F /* FakeXinGePush.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FakeXinGePush.podspec; path = ../FakeXinGePush.podspec; sourceTree = "<group>"; };
+		FEAFE6B4910A1C779236DE9F /* FakeXinGePush.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FakeXinGePush.podspec; path = ../FakeXinGePush.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "v7lin@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 78W43A3TE2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -522,6 +525,7 @@
 			baseConfigurationReference = 765488E683D7582A196BF658 /* Pods-FakeXinGePush_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78W43A3TE2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FakeXinGePush/FakeXinGePush-Prefix.pch";
 				INFOPLIST_FILE = "FakeXinGePush/FakeXinGePush-Info.plist";
@@ -537,6 +541,7 @@
 			baseConfigurationReference = 2D586ED42882A27E3D59A720 /* Pods-FakeXinGePush_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78W43A3TE2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FakeXinGePush/FakeXinGePush-Prefix.pch";
 				INFOPLIST_FILE = "FakeXinGePush/FakeXinGePush-Info.plist";

@@ -1,6 +1,6 @@
 # FakeXinGePush
 
-[![CI Status](https://img.shields.io/travis/v7lin@qq.com/FakeXinGePush.svg?style=flat)](https://travis-ci.org/v7lin@qq.com/FakeXinGePush)
+[![CI Status](https://img.shields.io/travis/v7lin/FakeXinGePush.svg?style=flat)](https://travis-ci.org/v7lin/FakeXinGePush)
 [![Version](https://img.shields.io/cocoapods/v/FakeXinGePush.svg?style=flat)](https://cocoapods.org/pods/FakeXinGePush)
 [![License](https://img.shields.io/cocoapods/l/FakeXinGePush.svg?style=flat)](https://cocoapods.org/pods/FakeXinGePush)
 [![Platform](https://img.shields.io/cocoapods/p/FakeXinGePush.svg?style=flat)](https://cocoapods.org/pods/FakeXinGePush)
@@ -22,7 +22,7 @@ pod 'FakeXinGePush'
 
 ## Author
 
-v7lin@qq.com, v7lin@qq.com
+v7lin, v7lin@qq.com
 
 ## License
 

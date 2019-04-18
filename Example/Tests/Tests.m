@@ -2,8 +2,8 @@
 //  FakeXinGePushTests.m
 //  FakeXinGePushTests
 //
-//  Created by v7lin@qq.com on 04/17/2019.
-//  Copyright (c) 2019 v7lin@qq.com. All rights reserved.
+//  Created by v7lin on 04/17/2019.
+//  Copyright (c) 2019 v7lin. All rights reserved.
 //
 
 // https://github.com/Specta/Specta
